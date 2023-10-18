@@ -51,19 +51,35 @@ We will upload them as soon as possible.
 
 #### CIFAR-10
 ```shell
-  python general_main.py please wait for updating the parameters 
+  python general_main.py --agent er --loss rfocal --classify max --data cifar10 --eps_mem_batch 100 --mem_size 200 --review_trick True --kd_trick True --kd_lamda 0.05 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
-
+```shell
+  python general_main.py --agent er --loss rfocal --classify max --data cifar10 --eps_mem_batch 100 --mem_size 500 --review_trick True --kd_trick True --kd_lamda 0.05 --cor_prob 0.99 --T 20.0 --fix_order True
+ ```
+```shell
+  python general_main.py --agent er --loss rfocal --classify max --data cifar10 --eps_mem_batch 100 --mem_size 1000 --review_trick True --kd_trick True --kd_lamda 0.1 --cor_prob 0.99 --T 20.0 --fix_order True
+ ```
 #### CIFAR-100
 ```shell
-  python general_main.py please wait for updating the parameters
+  python general_main.py --agent er --loss rfocal --classify max --data cifar100 --eps_mem_batch 100 --mem_size 1000 --review_trick True --kd_trick True --kd_lamda 0.15 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
- 
-#### Mini-Imagenet
 ```shell
-  python general_main.py please wait for updating the parameters
+  python general_main.py --agent er --loss rfocal --classify max --data cifar100 --eps_mem_batch 100 --mem_size 2000 --review_trick True --kd_trick True --kd_lamda 0.05 --cor_prob 0.99 --T 20.0 --fix_order True
+ ```
+```shell
+  python general_main.py --agent er --loss rfocal --classify max --data cifar100 --eps_mem_batch 100 --mem_size 5000 --review_trick True --kd_trick True --kd_lamda 0.1 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
 
+#### Mini-Imagenet
+```shell
+  python general_main.py --agent er --loss rfocal --classify max --data mini_imagenet --eps_mem_batch 100 --mem_size 1000 --review_trick True --kd_trick True --kd_lamda 0.05 --cor_prob 0.99 --T 20.0 --fix_order True
+ ```
+```shell
+  python general_main.py --agent er --loss rfocal --classify max --data mini_imagenet --eps_mem_batch 100 --mem_size 2000 --review_trick True --kd_trick True --kd_lamda 0.1 --cor_prob 0.99 --T 20.0 --fix_order True
+ ```
+```shell
+  python general_main.py --agent er --loss rfocal --classify max --data mini_imagenet --eps_mem_batch 100 --mem_size 5000 --review_trick True --kd_trick True --kd_lamda 0.05 --cor_prob 0.99 --T 20.0 --fix_order True
+ ```
 
 ## Reference
 
