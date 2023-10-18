@@ -47,7 +47,7 @@ Except our implementation code, you could easily find other implementation resul
 - In our paper, the main trick (RV) can be found in BER [[Paper]](https://arxiv.org/abs/2007.05683) and online CL survey [[Paper]](https://arxiv.org/pdf/2101.10423.pdf) which has been implemented by [RaptorMai](https://github.com/RaptorMai/online-continual-learning). 
 
 ## Run commands
-Detailed descriptions of options can be found in [general_main.py](general_main.py). This file is not uploaded currently.
+Detailed descriptions of options can be found in [general_main.py](general_main.py). 
 
 ### Command for duplicate results
 You can run python file "run_cifar10.py", "run_cifar100.py" and "run_mini.py" to reimplement our paper results, for example:
