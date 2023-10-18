@@ -3,10 +3,6 @@ Official implementation of the paper [[New Insights on Relieving Task-Recency Bi
 
 The backbone of project mainly refers to [online-continual-learning](https://github.com/RaptorMai/online-continual-learning). 
 
-Our method can be easily reimplemented from [online-continual-learning
-](https://github.com/RaptorMai/online-continual-learning) and [Teacher-free-Knowledge-Distillation
-](https://github.com/yuanli2333/Teacher-free-Knowledge-Distillation). 
-
 ## Requirements
 Create a virtual enviroment
 ```sh
