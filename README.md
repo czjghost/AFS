@@ -1,5 +1,5 @@
 # AFS (Adaptive Focus Shifting algorithm)
-Official implementation of the paper [[New Insights on Relieving Task-Recency Bias for Online Class Incremental Learning]](https://arxiv.org/abs/2302.08243).
+Official implementation of the paper [[New Insights on Relieving Task-Recency Bias for Online Class Incremental Learning]](https://arxiv.org/abs/2302.08243) ((TCSVT 2023)).
 
 The backbone of project mainly refers to [online-continual-learning](https://github.com/RaptorMai/online-continual-learning). 
 
@@ -47,7 +47,7 @@ Except our implementation code, you could easily find other implementation resul
 Detailed descriptions of options can be found in [general_main.py](general_main.py). This file is not uploaded currently.
 
 ### Command for duplicate results
-You can run python file "run_cifar10.py", "run_cifar100.py" and "run_mini.py" to reimplement our paper result, for example:
+You can run python file "run_cifar10.py", "run_cifar100.py" and "run_mini.py" to reimplement our paper results, for example:
 ```shell
   python run_mini.py
  ```
