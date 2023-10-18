@@ -8,11 +8,18 @@ Our method can be easily reimplemented from [online-continual-learning
 ](https://github.com/yuanli2333/Teacher-free-Knowledge-Distillation). 
 
 ## Requirements
-Create a virtual enviroment **sh virtualenv online-cl**
-
-Activating a virtual environment **sh source online-cl/bin/activate**
-
-Installing packages **sh pip install -r requirements.txt**
+Create a virtual enviroment
+```sh
+virtualenv online-cl
+```
+Activating a virtual environment
+```sh
+source online-cl/bin/activate
+```
+Installing packages
+```sh
+pip install -r requirements.txt
+```
 
 ## Datasets 
 
