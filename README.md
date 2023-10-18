@@ -47,7 +47,12 @@ Except our implementation code, you could easily find other implementation resul
 Detailed descriptions of options can be found in [general_main.py](general_main.py). This file is not uploaded currently.
 
 ### Command for duplicate results
+You can run python file "run_cifar10.py", "run_cifar100.py" and "run_mini.py" to reimplement our paper result, for example:
+```shell
+  python run_mini.py
+ ```
 
+Detailed commands are as follows:
 ### CIFAR-10
 #### Memory = 0.2k
 ```shell
@@ -74,7 +79,6 @@ Detailed descriptions of options can be found in [general_main.py](general_main.
 ```shell
   python general_main.py --agent er --loss rfocal --classify max --data cifar100 --eps_mem_batch 100 --mem_size 5000 --review_trick True --kd_trick True --kd_lamda 0.1 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
-
 ### Mini-Imagenet
 #### Memory = 1k
 ```shell
@@ -88,6 +92,7 @@ Detailed descriptions of options can be found in [general_main.py](general_main.
 ```shell
   python general_main.py --agent er --loss rfocal --classify max --data mini_imagenet --eps_mem_batch 100 --mem_size 5000 --review_trick True --kd_trick True --kd_lamda 0.05 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
+
 
 ## Reference
 
