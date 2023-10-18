@@ -1,11 +1,11 @@
 # AFS (Adaptive Focus Shifting algorithm)
 Official implementation of the paper [[New Insights on Relieving Task-Recency Bias for Online Class Incremental Learning]](https://arxiv.org/abs/2302.08243).
 
-We will upload our implementation code as soon as possible (possibly after our paper is published). The backbone of project mainly refers to [online-continual-learning](https://github.com/RaptorMai/online-continual-learning). 
+The backbone of project mainly refers to [online-continual-learning](https://github.com/RaptorMai/online-continual-learning). 
 
-Our method can be easily reimplement from [online-continual-learning
+Our method can be easily reimplemented from [online-continual-learning
 ](https://github.com/RaptorMai/online-continual-learning) and [Teacher-free-Knowledge-Distillation
-](https://github.com/yuanli2333/Teacher-free-Knowledge-Distillation). We will offer the hyperparameter details synchronously when we upload our implementation code.
+](https://github.com/yuanli2333/Teacher-free-Knowledge-Distillation). 
 
 ## Requirements
 Create a virtual enviroment **sh virtualenv online-cl**
@@ -50,42 +50,42 @@ Detailed descriptions of options can be found in [general_main.py](general_main.
 We will upload them as soon as possible.
 
 #### CIFAR-10
-Memory = 0.2k
+## Memory = 0.2k
 ```shell
   python general_main.py --agent er --loss rfocal --classify max --data cifar10 --eps_mem_batch 100 --mem_size 200 --review_trick True --kd_trick True --kd_lamda 0.05 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
-Memory = 0.5k
+## Memory = 0.5k
 ```shell
   python general_main.py --agent er --loss rfocal --classify max --data cifar10 --eps_mem_batch 100 --mem_size 500 --review_trick True --kd_trick True --kd_lamda 0.05 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
-Memory = 1k
+## Memory = 1k
 ```shell
   python general_main.py --agent er --loss rfocal --classify max --data cifar10 --eps_mem_batch 100 --mem_size 1000 --review_trick True --kd_trick True --kd_lamda 0.1 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
 #### CIFAR-100
-Memory = 1k
+## Memory = 1k
 ```shell
   python general_main.py --agent er --loss rfocal --classify max --data cifar100 --eps_mem_batch 100 --mem_size 1000 --review_trick True --kd_trick True --kd_lamda 0.15 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
-Memory = 2k
+## Memory = 2k
 ```shell
   python general_main.py --agent er --loss rfocal --classify max --data cifar100 --eps_mem_batch 100 --mem_size 2000 --review_trick True --kd_trick True --kd_lamda 0.05 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
-Memory = 5k
+## Memory = 5k
 ```shell
   python general_main.py --agent er --loss rfocal --classify max --data cifar100 --eps_mem_batch 100 --mem_size 5000 --review_trick True --kd_trick True --kd_lamda 0.1 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
 
 #### Mini-Imagenet
-Memory = 1k
+## Memory = 1k
 ```shell
   python general_main.py --agent er --loss rfocal --classify max --data mini_imagenet --eps_mem_batch 100 --mem_size 1000 --review_trick True --kd_trick True --kd_lamda 0.05 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
-Memory = 2k
+## Memory = 2k
 ```shell
   python general_main.py --agent er --loss rfocal --classify max --data mini_imagenet --eps_mem_batch 100 --mem_size 2000 --review_trick True --kd_trick True --kd_lamda 0.1 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
-Memory = 5k
+## Memory = 5k
 ```shell
   python general_main.py --agent er --loss rfocal --classify max --data mini_imagenet --eps_mem_batch 100 --mem_size 5000 --review_trick True --kd_trick True --kd_lamda 0.05 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
