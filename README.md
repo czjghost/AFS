@@ -1,5 +1,5 @@
 # AFS (Adaptive Focus Shifting algorithm)
-Official implementation of the paper [[New Insights on Relieving Task-Recency Bias for Online Class Incremental Learning]](10.1109/TCSVT.2023.3325651) (TCSVT 2023).
+Official implementation of the paper [[New Insights on Relieving Task-Recency Bias for Online Class Incremental Learning]](https://ieeexplore.ieee.org/document/10287323) (TCSVT 2023).
 
 The backbone of project mainly refers to [online-continual-learning](https://github.com/RaptorMai/online-continual-learning). 
 
