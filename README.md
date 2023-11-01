@@ -112,8 +112,9 @@ If you use this paper/code in your research, please consider citing us:
   number={},
   pages={1-1},
   doi={10.1109/TCSVT.2023.3325651}}
+```
 
-Other traditional papers we encourage you to cite can be found in [RaptorMai](https://github.com/RaptorMai).
+**Other traditional papers we encourage you to cite can be found in [RaptorMai](https://github.com/RaptorMai).**
 
 ## Reference
 
