@@ -95,7 +95,25 @@ Detailed commands are as follows:
 ```shell
   python general_main.py --agent er --loss rfocal --classify max --data mini_imagenet --eps_mem_batch 100 --mem_size 5000 --review_trick True --kd_trick True --kd_lamda 0.05 --cor_prob 0.99 --T 20.0 --fix_order True
  ```
+## Citation 
 
+If you use this paper/code in your research, please consider citing us:
+
+**Supervised Contrastive Replay: Revisiting the Nearest Class Mean Classifier in Online Class-Incremental Continual Learning**
+
+[Accepted at TCSVT2023](https://ieeexplore.ieee.org/document/10287323).
+```
+@ARTICLE{10287323,
+  author={Liang, Guoqiang and Chen, Zhaojie and Chen, Zhaoqiang and Ji, Shiyu and Zhang, Yanning},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={New Insights on Relieving Task-Recency Bias for Online Class Incremental Learning}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCSVT.2023.3325651}}
+
+Other traditional papers we encourage you to cite can be found in [RaptorMai](https://github.com/RaptorMai).
 
 ## Reference
 
