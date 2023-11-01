@@ -99,7 +99,7 @@ Detailed commands are as follows:
 
 If you use this paper/code in your research, please consider citing us:
 
-**Supervised Contrastive Replay: Revisiting the Nearest Class Mean Classifier in Online Class-Incremental Continual Learning**
+**New Insights on Relieving Task-Recency Bias for Online Class Incremental Learning**
 
 [Accepted at TCSVT2023](https://ieeexplore.ieee.org/document/10287323).
 ```
